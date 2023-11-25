@@ -10,7 +10,7 @@ import axios, {
  */
 
 const request = () => {
-    const config: CreateAxiosDefaults = { baseURL: import.meta.env.VITE_API_BASE_URL }
+    const config: CreateAxiosDefaults = { baseURL: 'https://pokeapi.co/api/v2' }
 
     const axiosInstance: AxiosInstance = axios.create(config)
 

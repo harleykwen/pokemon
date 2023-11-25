@@ -84,7 +84,7 @@ const PokemonList: React.FC = () => {
                 initial='initial'
                 animate='animate'
                 exit='exit'
-                pt='53px'
+                pt='64px'
                 pb='1.5rem'
                 spacing='3rem'
             >

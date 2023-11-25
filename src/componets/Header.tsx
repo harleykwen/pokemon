@@ -46,7 +46,7 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
                     align='center'
                     justify='space-between'
                     h='header-height'
-                    paddingY='.5rem'
+                    paddingY='24px'
                 >
                     <Image
                         src={LOGO}
